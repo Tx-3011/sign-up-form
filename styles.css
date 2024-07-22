@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Norse';
+    src: url('./fonts/Norse/Norse-Bold.eot');
+    src: url('./fonts/Norse/Norse-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Norse/Norse-Bold.woff2') format('woff2'),
+        url('./fonts/Norse/Norse-Bold.woff') format('woff'),
+        url('./fonts/Norse/Norse-Bold.ttf') format('truetype'),
+        url('./fonts/Norse/Norse-Bold.svg#Norse-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+}
+
+.titleText{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.523);
+    width: 100%;
+    justify-content: center;
+    font-size: 3rem;
+    align-items: center;
+
+    position: relative;
+    top: -180px;
+}
+
+.odinIMG{
+    padding: 10px;
+}
+
+.imagePart{
+    width: 575px;
+    min-width: 575px;
+    background-image: url(./background.jpg);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Norse';
+    color: white;
+}
+
+.contentPart{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+p{
+    margin: 10px;
+}
