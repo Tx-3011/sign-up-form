@@ -60,6 +60,9 @@ body{
     justify-content: center;
 }
 
-p{
+.introText{
     margin: 10px;
+    margin-left: 25px;
+    width: 850px;
+    line-height: 30px;
 }
